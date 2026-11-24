@@ -1,0 +1,9 @@
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        text = str(x)
+        reversed_text = text[::-1]
+        return text == reversed_text
